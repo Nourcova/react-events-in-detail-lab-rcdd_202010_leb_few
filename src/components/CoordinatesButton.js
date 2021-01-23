@@ -1,6 +1,6 @@
 import React from 'react';
 
-class CoordinatesButton extends Component {
+class CoordinatesButton extends React.Component {
   handleClick=(event)=>{
     this.props.onRecieveCoofrinates([evnent.clientX,event.clientY])
   }
